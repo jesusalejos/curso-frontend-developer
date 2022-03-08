@@ -108,6 +108,8 @@ picture
     border-radius: 100%;
     flex-basis: 50%;
     height: 75%;
+    position:relative;
+    z-index:10;
 }
 
 .main-cards picture img
@@ -115,6 +117,23 @@ picture
     border-radius: 100%;
     width: 100%;
     border: groove var(--hover) 4px;
+}
+
+.main-cards .Second-picture
+{
+    width: 70%;
+    height: 25%;
+    position: absolute;
+    z-index: 1;
+    top:7%;
+    border-radius: 10%;
+}
+
+.main-cards .Second-picture img
+{
+border-radius: 10%;
+width: 100%;
+border: none;
 }
 .aside-cards
 {
