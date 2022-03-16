@@ -17,6 +17,8 @@ html
     --aside-color: #7fff77;
     --hover:#fa5e;
     --active:#d44;
+    --font-size-menus: 1.2rem;
+    --font-color: #ededed;
 
 }
 
@@ -73,8 +75,8 @@ picture
     justify-content: space-around;
     list-style: none;
     flex-basis: 90%;
-    color:#ededed;
-    font-size: 1.2rem;
+    color:var(--font-color);
+    font-size: var(--font-size-menus);
      
 }
 
@@ -117,6 +119,7 @@ picture
     border-radius: 100%;
     width: 100%;
     border: groove var(--hover) 4px;
+    
 }
 
 .main-cards .Second-picture
@@ -140,6 +143,51 @@ border: none;
     background-color:var(--aside-color);
     width:100vw;
     height: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.box-content
+{
+    
+    /* border: groove var(--hover) 2px; */
+    background-color: var(--header-color);
+    color: var(--font-color);
+    width:40%;
+    text-align: center;
+
+}
+
+.box-content:hover 
+{
+    color: var(--hover);
+    
+}
+
+.box-content:active
+{
+    color: var(--active);
+    
+}
+
+.box-content--fixed
+{
+    
+    position: fixed;
+    top: 50%;
+    background-color: var(--header-color);
+    color: var(--font-color);
+    margin-inline-start: 50%;
+
+}
+
+article
+{
+    display: flex;
+    justify-content: space-around;
+    width:100%
 }
 
 .footer-cards
