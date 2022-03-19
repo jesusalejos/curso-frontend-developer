@@ -152,7 +152,7 @@ border: none;
     left:60%;
     z-index: 5;
     color:var(--font-color);
-    border: groove var(--header-color) 2px;
+    border: groove var(--aside-color) 4px;
     text-align: right;
 }
 
@@ -166,7 +166,7 @@ border: none;
     left: 9%;
     z-index: 5;
     color:var(--font-color);
-    border: groove var(--header-color) 2px;
+    border: groove var(--aside-color) 4px;
 }
 
 .box-main:hover,.box-main--first:hover
